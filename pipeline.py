@@ -486,7 +486,7 @@ def main():
     finally:
         if spark is not None:
             spark.stop()
-            print("Spark session stopped")
+            print("Spark session Completly stopped")
 
 
 if __name__ == "__main__":
